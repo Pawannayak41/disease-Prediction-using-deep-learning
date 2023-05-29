@@ -41,4 +41,5 @@ typing-extensions==3.10.0.0
 urllib3==1.26.5
 gunicorn
 Werkzeug==2.2.3
-werkzeug-wrappers
+wrapt==1.12.1
+zipp==3.4.1
