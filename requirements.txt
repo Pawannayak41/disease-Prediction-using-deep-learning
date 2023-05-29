@@ -40,6 +40,6 @@ termcolor==1.1.0
 typing-extensions==3.10.0.0
 urllib3==1.26.5
 gunicorn
-Werkzeug==2.2.3
+Werkzeug
 wrapt==1.12.1
 zipp==3.4.1
