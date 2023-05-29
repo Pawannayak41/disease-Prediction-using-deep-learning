@@ -1,0 +1,57 @@
+{% extends 'main.html' %}
+{% block content %}
+{% if message %}
+        <div class="alert alert-danger">{{ message }}</div>
+    {% endif %}
+<div class="container">
+    <div class="card card-body" style="border: 1px solid black; box-shadow: 0 0 10px black;">
+        <h2>This is basic Deep Learning based WebApp.</h2>
+        <p>These Deep Leaning models are trained on large datasets and thousands of images.</p>
+        <br>
+        <h2>Model Accuracies:</h2>
+        <ul>
+            <li>Pneumonia Model: <strong>95%</strong></li>
+            <li>Tuerculosis Model: <strong>99.52%</strong></li>
+            
+        </ul>
+ 
+        <h3>Information about the Diseases which this webApp can predict.</h3>
+        <br>
+       
+        <div class="row">
+            <div class="col-md-12 card card-body" style="box-shadow: 0 0 5px black; margin: 5px;">
+                <h4>Pneumonia</h4>
+                <p>Pneumonia is an infection that inflames the air sacs in one or both lungs. The air sacs may fill with fluid or pus (purulent material), causing cough with phlegm or pus, fever, chills, and difficulty breathing. A variety of organisms, including bacteria, viruses and fungi, can cause pneumonia.</p>
+                <h5>Symptoms</h5>
+                <ul>
+                    <li>Cough, which may produce greenish, yellow or even bloody mucus.</li>
+                    <li>Fever, sweating and shaking chills.</li>
+                    <li>Shortness of breath.</li>
+                    <li>Rapid, shallow breathing.</li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        </br>
+        <div class="row">
+            <div class="col-md-12 card card-body" style="box-shadow: 0 0 5px black; margin: 5px;">
+                <h4>Tuberculosis</h4>
+                <p>Tuberculosis (TB) is a potentially fatal contagious disease that affect mainly to the lungs. It is caused by a bacterial microorganism, the tubercle bacillus or Mycobacterium tuberculosis.It can cause severe symptoms such as: Coughing up blood and mucus from deep inside the lungs.</p>
+                <h5>Symptoms</h5>
+                <ul>
+                    <li>Cough with Blood in sputum.</li>
+                    <li>Weight loss, It rapidly reduces the human weight.</li>
+                    <li>pain in checst.</li>
+                    <li>Loss of appetite.</li>
+		            <li>Fever for more than 2 weeks.</li>
+		            <li>Pleurisy - which causes pain during breathing.</li>
+		            <li>Pleural effusion - accumulation of fluid in lungs.</li>
+	                <li>Night sweats.</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+{% endblock %}
+
