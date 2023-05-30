@@ -41,7 +41,7 @@ tensorboard==2.7.0
 tensorflow==2.7.0
 tensorflow-estimator==2.7.0
 termcolor==1.1.0
-typing-extensions==3.11.0.0
+typing-extensions
 urllib3==1.26.7
 Werkzeug==2.0.1
 wrapt==1.12.1
